@@ -1,9 +1,9 @@
 import java.util.Random;
-
+import java.util.Scanner;
 public class BubbleSort {
- Random rand = new Random();
- DoublyLinkedList numbers = new DoublyLinkedList();
- int[] randomArray = new int[];
+ 
+ 
+
  
  public BubbleSort(int[] array){
 	 
@@ -12,5 +12,15 @@ public class BubbleSort {
 }
 
 public static void main(String[] args){
-	System.out.
+	Scanner keyboard = new Scanner(System.in);
+	Random rand = new Random();
+	DoublyLinkedList numbers = new DoublyLinkedList();
+	System.out.println("How many numbers should be in the list?");
+	int n = keyboard.nextInt();
+	int i = 0;
+	while(i < n){
+		numbers.addStart()
+		i++;
+	}
+	
 }
