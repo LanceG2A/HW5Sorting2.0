@@ -8,8 +8,8 @@ public class DoublyLinkedList {
 		head = null;
 		size = 0;
 	}
-	public int[] createArray(){
-		Link temp = head;
+	public int[] createArray(){ //Creates an array using the data in the doubly linked list
+		Link temp = head;		//This is used for the bubblesort method
 		int[] tempArray = new int[size];
 		int i = 0;
 		while(i < tempArray.length){
