@@ -17,7 +17,7 @@ public class Link { //Class to for Links (Nodes)
 		this.next = next;	
 	}
 	
-	public String ReturnNumber() {  //Return link information
+	public int ReturnNumber() {  //Return link information
 		return this.randomNumber;
 	}
 	

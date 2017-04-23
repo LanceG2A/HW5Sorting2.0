@@ -8,6 +8,17 @@ public class DoublyLinkedList {
 		head = null;
 		size = 0;
 	}
+	public int[] createArray(){
+		Link temp = head;
+		int[] tempArray = new int[size];
+		int i = 0;
+		while(i < tempArray.length){
+			tempArray[i] = temp.randomNumber;
+			temp = temp.next;
+			i++;
+		}
+		return tempArray;
+	}
 	
 	public void addStart(int randomNumber)//to add a link in the list at the beginning
 	{
